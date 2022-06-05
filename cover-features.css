@@ -133,11 +133,41 @@ body {
   padding: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .content {
     max-width: 100%;
   }
   .mobile-padding {
     padding: 0%;
   }
+}
+
+.content h3 {
+  margin: .8em;
+}
+
+.description h4{
+  margin: 1em;
+}
+
+.description p{
+  margin: 0;
+}
+
+.sold {
+  color: #bf4141
+}
+
+.description ul {
+  list-style: none;
+  padding: 0 1em;
+}
+
+.description ul :nth-child(odd) {
+  background-color: #333;
+}
+
+hr {
+  background-color: white;
+  margin: 2em .5em;
 }
