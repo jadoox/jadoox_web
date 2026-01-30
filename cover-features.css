@@ -213,3 +213,16 @@ article {
     margin-right: 1.2rem;
   }
 }
+
+.nav-masthead {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  .nav-masthead .nav-link {
+    margin-left: .75rem;
+    margin-right: .75rem;
+    font-size: 1rem;
+  }
+}
