@@ -159,6 +159,10 @@ article {
   border-bottom-color: #fff;
 }
 
+h1.mb-5 {
+  margin-bottom: 2rem !important;
+}
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
